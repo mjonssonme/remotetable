@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_snc_mj_myapp_st_remote_users</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:49:59</sys_created_on>
+        <sys_id>a75d2d001b246810ce294371b24bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_mj_myapp_st_remote_users</sys_name>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name>ua_table_licensing_config_a75d2d001b246810ce294371b24bcbcd</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 07:49:59</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

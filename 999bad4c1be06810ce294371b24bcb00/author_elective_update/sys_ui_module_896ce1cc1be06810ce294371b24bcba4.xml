@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="myApp">496ce1cc1be06810ce294371b24bcba1</application>
+        <filter/>
+        <name>Remote Users</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_mj_myapp.remote_users_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:45:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>896ce1cc1be06810ce294371b24bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remote Users</sys_name>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name>sys_ui_module_896ce1cc1be06810ce294371b24bcba4</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 07:45:43</sys_updated_on>
+        <table>x_snc_mj_myapp_remote_users</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="myApp">999bad4c1be06810ce294371b24bcb00</application>
+        <file_path/>
+        <instance_id>ffbd7961db14e490c6e711f848961933</instance_id>
+        <instance_name>scaniavisiondemo</instance_name>
+        <name>sys_ui_module_896ce1cc1be06810ce294371b24bcba4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="myApp">496ce1cc1be06810ce294371b24bcba1</application><filter/><name>Remote Users</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_mj_myapp.remote_users_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>mattias.johnsson</sys_created_by><sys_created_on>2020-11-13 07:45:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>896ce1cc1be06810ce294371b24bcba4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Remote Users</sys_name><sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package><sys_policy/><sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope><sys_update_name>sys_ui_module_896ce1cc1be06810ce294371b24bcba4</sys_update_name><sys_updated_by>mattias.johnsson</sys_updated_by><sys_updated_on>2020-11-13 07:45:43</sys_updated_on><table>x_snc_mj_myapp_remote_users</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1916466833</payload_hash>
+        <record_name>Remote Users</record_name>
+        <reverted_from/>
+        <source>dd9bad4c1be06810ce294371b24bcb02</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:45:43</sys_created_on>
+        <sys_id>896ce1cc1be06810ce294371b24bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175c09136a10000001</sys_recorded_at>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 07:45:43</sys_updated_on>
+        <type>Module</type>
+        <update_guid>816ce1cc30e06810184713980c30b4a7</update_guid>
+        <update_guid_history>816ce1cc30e06810184713980c30b4a7:1916466833</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:48:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>5d1e23eadfe44e66abc55632ca7b1f71</sys_id>
+        <sys_metadata>896ce1cc1be06810ce294371b24bcba4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remote Users</sys_name>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_scope_delete display_value="">2e7572b632f54660a6d71a33ec5946a1</sys_scope_delete>
+        <sys_update_name>sys_ui_module_896ce1cc1be06810ce294371b24bcba4</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_896ce1cc1be06810ce294371b24bcba4">896ce1cc1be06810ce294371b24bcba7</sys_update_version>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 07:48:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

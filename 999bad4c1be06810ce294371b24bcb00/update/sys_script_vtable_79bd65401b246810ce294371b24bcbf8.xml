@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Remote Users</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+ try { 
+ var r = new sn_ws.RESTMessageV2('x_snc_mj_myapp.Remote Users', 'Default GET');
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+}
+catch(ex) {
+ var message = ex.message;
+}
+
+var result = JSON.parse(responseBody);
+var n = result.length;
+
+for(i=0;i<n;i++){
+//gs.info(result[i].id);
+	
+	var row = {};
+	row["id"] = result[i].id;
+	row["avatar"] = result[i].avatar;
+	row["first_name"] = result[i].firstname;
+	row["last_name"] = result[i].lastname;
+	row["country"] = result[i].country;
+	row["department"] = result[i].department;
+	
+	v_table.addRow(row);
+	
+	
+	
+}
+	
+	
+	
+	
+	// Main API:
+    //    v_table.addRow({ ... }) - adds a row to the result set
+    
+    // There are also query helper methods
+    //    v_query.getEncodedQuery() - returns encoded querystring
+    //    v_query.getCondition(field) - returns encoded querystring for the given field (includes field name, operator, and value)
+    //    v_query.getParameter(field) - returns parameter for the given field (only includes value for equality conditions)
+    //    v_query.isGet() - returns whether the query is a single get by sys_id
+    //    v_query.getSysId() - returns parameter for sys_id field
+    //    v_query.isTextSearch() - returns whether the query contains a text query parameter
+    //    v_query.getTextSearch() - returns text search query parameter (internal field name 123TEXTQUERY321)
+    //    v_query.getFirstRowWanted() - returns the first row to include
+    //    v_query.getLastRowWanted() - returns the last row to include
+  
+    // Note: You must define sys_id for each row so that forms and lists for this table work properly
+     
+    // Your code goes here
+    // v_table.addRow({...})
+  })(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:52:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79bd65401b246810ce294371b24bcbf8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Remote Users</sys_name>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name>sys_script_vtable_79bd65401b246810ce294371b24bcbf8</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:26:10</sys_updated_on>
+        <table>x_snc_mj_myapp_st_remote_users</table>
+    </sys_script_vtable>
+</record_update>

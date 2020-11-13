@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Remote Users" max_length="40" name="x_snc_mj_myapp_st_remote_users" sizeclass="0" type="collection">
+        <element label="Avatar" max_length="512" name="avatar" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element display="true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

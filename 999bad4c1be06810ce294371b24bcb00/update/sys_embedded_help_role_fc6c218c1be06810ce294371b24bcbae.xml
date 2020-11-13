@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_mj_myapp.remote_users_user" name="x_snc_mj_myapp.remote_users_user">706c218c1be06810ce294371b24bcbab</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:45:42</sys_created_on>
+        <sys_id>fc6c218c1be06810ce294371b24bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>706c218c1be06810ce294371b24bcbab</sys_name>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name>sys_embedded_help_role_fc6c218c1be06810ce294371b24bcbae</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 07:45:42</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

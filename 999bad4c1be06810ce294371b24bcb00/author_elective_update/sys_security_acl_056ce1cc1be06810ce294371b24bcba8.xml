@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_mj_myapp_remote_users</description>
+        <name>x_snc_mj_myapp_remote_users</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:45:43</sys_created_on>
+        <sys_id>056ce1cc1be06810ce294371b24bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_mj_myapp_remote_users</sys_name>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name>sys_security_acl_056ce1cc1be06810ce294371b24bcba8</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 07:45:43</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="myApp">999bad4c1be06810ce294371b24bcb00</application>
+        <file_path/>
+        <instance_id>ffbd7961db14e490c6e711f848961933</instance_id>
+        <instance_name>scaniavisiondemo</instance_name>
+        <name>sys_security_acl_056ce1cc1be06810ce294371b24bcba8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_mj_myapp_remote_users</description><name>x_snc_mj_myapp_remote_users</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>mattias.johnsson</sys_created_by><sys_created_on>2020-11-13 07:45:43</sys_created_on><sys_id>056ce1cc1be06810ce294371b24bcba8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_mj_myapp_remote_users</sys_name><sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package><sys_policy/><sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope><sys_update_name>sys_security_acl_056ce1cc1be06810ce294371b24bcba8</sys_update_name><sys_updated_by>mattias.johnsson</sys_updated_by><sys_updated_on>2020-11-13 07:45:43</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-792166415</payload_hash>
+        <record_name>x_snc_mj_myapp_remote_users</record_name>
+        <reverted_from/>
+        <source>dd9bad4c1be06810ce294371b24bcb02</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:45:43</sys_created_on>
+        <sys_id>c96ce1cc1be06810ce294371b24bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175c09137160000001</sys_recorded_at>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 07:45:43</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>c16ce1cc29e06810a797146ff6898dac</update_guid>
+        <update_guid_history>c16ce1cc29e06810a797146ff6898dac:-792166415</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 07:48:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1f7a51af39c4457093192dadf3757900</sys_id>
+        <sys_metadata>056ce1cc1be06810ce294371b24bcba8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_mj_myapp_remote_users</sys_name>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_parent display_value="">8d6ce1cc1be06810ce294371b24bcbc4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_scope_delete display_value="">2e7572b632f54660a6d71a33ec5946a1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_056ce1cc1be06810ce294371b24bcba8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_056ce1cc1be06810ce294371b24bcba8">c96ce1cc1be06810ce294371b24bcbac</sys_update_version>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 07:48:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
