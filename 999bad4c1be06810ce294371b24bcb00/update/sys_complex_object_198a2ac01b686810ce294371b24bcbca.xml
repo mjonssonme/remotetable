@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD558a2ac09b68681013a86a837bfd11ca</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>999bad4c1be06810ce294371b24bcb00</scope_name>
+        <serialized_content>{"FlowDesigner:FD558a2ac09b68681013a86a837bfd11ca":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD558a2ac09b68681013a86a837bfd11ca.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Remote Users\",\"mandatory\":\"false\",\"child_name\":\"user\",\"uiUniqueId\":\"cc71a17a-a29e-4251-9bb5-03fd5e2bba7b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD558a2ac09b68681013a86a837bfd11ca\",\"child_label\":\"User\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6231d002-2762-40f2-a361-88333c061197\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 12:17:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>198a2ac01b686810ce294371b24bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD558a2ac09b68681013a86a837bfd11ca</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name>sys_complex_object_198a2ac01b686810ce294371b24bcbca</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:17:10</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

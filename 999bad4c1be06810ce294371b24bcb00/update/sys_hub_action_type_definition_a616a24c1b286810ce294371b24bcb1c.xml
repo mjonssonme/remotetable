@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_remote_users</internal_name>
+        <label_cache>[{"name":"{{step[7a248115-b617-4f35-aa1d-410d0044c784].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].Remote_Users}}","label":"step➛JSON Parser step➛Remote Users","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].users}}","label":"step➛JSON Parser step➛Users","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].Remote_Users.users}}","label":"step➛JSON Parser step➛Remote Users➛users","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].Remote_Users.root_array}}","label":"step➛JSON Parser step➛Remote Users➛users","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].Remote_Users.remote_users}}","label":"step➛JSON Parser step➛Remote Users➛remote users","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].Remote_Users.root_array.Users}}","label":"step➛JSON Parser step➛Remote Users➛root_array➛Users","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].remote_users}}","label":"step➛JSON Parser step➛Remote Users","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].root.Remote_Users}}","label":"step➛JSON Parser step➛root➛Remote Users","type":"step","ref":""},{"name":"{{step[1b726763-f98d-4645-9784-c42d83cb08c8].root.root_array}}","label":"step➛JSON Parser step➛root➛root_array","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Remote Users</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:57:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a616a24c1b286810ce294371b24bcb1c</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Get Remote Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a616a24c1b286810ce294371b24bcb1c</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:20:00</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a616a24c1b286810ce294371b24bcb1c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a616a24c1b286810ce294371b24bcb1c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>a616a24c1b286810ce294371b24bcb1c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 12:13:29</sys_created_on>
+        <sys_id>93a962801b686810ce294371b24bcb15</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:13:42</sys_updated_on>
+        <value/>
+        <variable display_value="">6986ae4c1b286810ce294371b24bcb9a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a616a24c1b286810ce294371b24bcb1c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>remote_users</field>
+        <id>a616a24c1b286810ce294371b24bcb1c</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:59:43</sys_created_on>
+        <sys_id>a586ae4c1b286810ce294371b24bcbbd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:20:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a616a24c1b286810ce294371b24bcb1c</table>
+        <value>{{step[1b726763-f98d-4645-9784-c42d83cb08c8].root}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a616a24c1b286810ce294371b24bcb1c^sys_idNOT IN74562a4c1b286810ce294371b24bcbb8,d446e64c1b286810ce294371b24bcb2e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Remote Users">a616a24c1b286810ce294371b24bcb1c</action>
+        <cid>1b726763-f98d-4645-9784-c42d83cb08c8</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>74562a4c1b286810ce294371b24bcbb8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:18:34</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=74562a4c1b286810ce294371b24bcbb8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>74562a4c1b286810ce294371b24bcbb8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>3c562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:18:34</sys_updated_on>
+        <value>[
+  {
+    "id": "1",
+    "createdAt": "2020-11-12T20:15:11.073Z",
+    "name": "Aubrey Borer",
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/klimmka/128.jpg",
+    "firstname": "Adalberto",
+    "lastname": "Stamm",
+    "city": "East Alisa",
+    "zipcode": "16998-4869",
+    "country": "Kyrgyz Republic",
+    "department": "Games",
+    "street": "8141 Dennis Radial",
+    "email": "Jakayla80@yahoo.com"
+  }
+]</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>74562a4c1b286810ce294371b24bcbb8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>78562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:13:29</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"root_array","children":[{"name":"root_array_object","children":[{"name":"id","children":[],"type":"string","jpath":"$.root_array[*].id","previewValue":"1"},{"name":"createdAt","children":[],"type":"string","jpath":"$.root_array[*].createdAt","previewValue":"2020-11-12T20:15:11.073Z"},{"name":"name","children":[],"type":"string","jpath":"$.root_array[*].name","previewValue":"Aubrey Borer"},{"name":"avatar","children":[],"type":"string","jpath":"$.root_array[*].avatar","previewValue":"https://s3.amazonaws.com/uifaces/faces/twitter/klimmka/128.jpg"},{"name":"firstname","children":[],"type":"string","jpath":"$.root_array[*].firstname","previewValue":"Adalberto"},{"name":"lastname","children":[],"type":"string","jpath":"$.root_array[*].lastname","previewValue":"Stamm"},{"name":"city","children":[],"type":"string","jpath":"$.root_array[*].city","previewValue":"East Alisa"},{"name":"zipcode","children":[],"type":"string","jpath":"$.root_array[*].zipcode","previewValue":"16998-4869"},{"name":"country","children":[],"type":"string","jpath":"$.root_array[*].country","previewValue":"Kyrgyz Republic"},{"name":"department","children":[],"type":"string","jpath":"$.root_array[*].department","previewValue":"Games"},{"name":"street","children":[],"type":"string","jpath":"$.root_array[*].street","previewValue":"8141 Dennis Radial"},{"name":"email","children":[],"type":"string","jpath":"$.root_array[*].email","previewValue":"Jakayla80@yahoo.com"}],"type":"object","jpath":"$.root_array[*]","previewValue":""}],"type":"array.object","jpath":"$.root_array[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=74562a4c1b286810ce294371b24bcbb8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>74562a4c1b286810ce294371b24bcbb8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>f4562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>74562a4c1b286810ce294371b24bcbb8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>70562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[7a248115-b617-4f35-aa1d-410d0044c784].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>74562a4c1b286810ce294371b24bcbb8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>34562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=74562a4c1b286810ce294371b24bcbb8^sys_idNOT IN13a922801b686810ce294371b24bcbe9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDfddaa204a2686810dcce2c9701211bf3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cdbd7a05-f401-4bd9-9c94-27ba6bd081a3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">74562a4c1b286810ce294371b24bcbb8</model>
+        <model_id>74562a4c1b286810ce294371b24bcbb8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_74562a4c1b286810ce294371b24bcbb8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 12:13:29</sys_created_on>
+        <sys_id>13a922801b686810ce294371b24bcbe9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:18:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Remote Users">a616a24c1b286810ce294371b24bcb1c</action>
+        <cid>7a248115-b617-4f35-aa1d-410d0044c784</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:31</sys_created_on>
+        <sys_id>d446e64c1b286810ce294371b24bcb2e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d446e64c1b286810ce294371b24bcb2e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>1846e64c1b286810ce294371b24bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>1c46e64c1b286810ce294371b24bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>34562a4c1b286810ce294371b24bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>5446e64c1b286810ce294371b24bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>https://5fa9fbbbb5c6450016029ff2.mockapi.io/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>9046e64c1b286810ce294371b24bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>d046e64c1b286810ce294371b24bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>users</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>dc46e64c1b286810ce294371b24bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_hub_action_output action="delete_multiple" query="model=a616a24c1b286810ce294371b24bcb1c^sys_idNOT IN6986ae4c1b286810ce294371b24bcb9a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=User,child_name=user,child_type=object,child_type_label=Object,child_uiUniqueId=6231d002-2762-40f2-a361-88333c061197,co_type_name=FDfa2b2e041768681016a7f763886e9e5a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=1b726763-f98d-4645-9784-c42d83cb08c8,sourceType=step,sourceUiUniqueId=cdbd7a05-f401-4bd9-9c94-27ba6bd081a3,uiType=object,uiTypeLabel=Object,uiUniqueId=cc71a17a-a29e-4251-9bb5-03fd5e2bba7b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remote_users</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Remote Users</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Remote Users">a616a24c1b286810ce294371b24bcb1c</model>
+        <model_id>a616a24c1b286810ce294371b24bcb1c</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a616a24c1b286810ce294371b24bcb1c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:59:43</sys_created_on>
+        <sys_id>6986ae4c1b286810ce294371b24bcb9a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:20:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=a616a24c1b286810ce294371b24bcb1c^sys_idNOT IN74562a4c1b286810ce294371b24bcbb8,d446e64c1b286810ce294371b24bcb2e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Remote Users">a616a24c1b286810ce294371b24bcb1c</action>
+        <cid>1b726763-f98d-4645-9784-c42d83cb08c8</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>74562a4c1b286810ce294371b24bcbb8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:18:34</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=74562a4c1b286810ce294371b24bcbb8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>74562a4c1b286810ce294371b24bcbb8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>3c562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:18:34</sys_updated_on>
+        <value>[
+  {
+    "id": "1",
+    "createdAt": "2020-11-12T20:15:11.073Z",
+    "name": "Aubrey Borer",
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/klimmka/128.jpg",
+    "firstname": "Adalberto",
+    "lastname": "Stamm",
+    "city": "East Alisa",
+    "zipcode": "16998-4869",
+    "country": "Kyrgyz Republic",
+    "department": "Games",
+    "street": "8141 Dennis Radial",
+    "email": "Jakayla80@yahoo.com"
+  }
+]</value>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>74562a4c1b286810ce294371b24bcbb8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>78562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:13:29</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"root_array","children":[{"name":"root_array_object","children":[{"name":"id","children":[],"type":"string","jpath":"$.root_array[*].id","previewValue":"1"},{"name":"createdAt","children":[],"type":"string","jpath":"$.root_array[*].createdAt","previewValue":"2020-11-12T20:15:11.073Z"},{"name":"name","children":[],"type":"string","jpath":"$.root_array[*].name","previewValue":"Aubrey Borer"},{"name":"avatar","children":[],"type":"string","jpath":"$.root_array[*].avatar","previewValue":"https://s3.amazonaws.com/uifaces/faces/twitter/klimmka/128.jpg"},{"name":"firstname","children":[],"type":"string","jpath":"$.root_array[*].firstname","previewValue":"Adalberto"},{"name":"lastname","children":[],"type":"string","jpath":"$.root_array[*].lastname","previewValue":"Stamm"},{"name":"city","children":[],"type":"string","jpath":"$.root_array[*].city","previewValue":"East Alisa"},{"name":"zipcode","children":[],"type":"string","jpath":"$.root_array[*].zipcode","previewValue":"16998-4869"},{"name":"country","children":[],"type":"string","jpath":"$.root_array[*].country","previewValue":"Kyrgyz Republic"},{"name":"department","children":[],"type":"string","jpath":"$.root_array[*].department","previewValue":"Games"},{"name":"street","children":[],"type":"string","jpath":"$.root_array[*].street","previewValue":"8141 Dennis Radial"},{"name":"email","children":[],"type":"string","jpath":"$.root_array[*].email","previewValue":"Jakayla80@yahoo.com"}],"type":"object","jpath":"$.root_array[*]","previewValue":""}],"type":"array.object","jpath":"$.root_array[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=74562a4c1b286810ce294371b24bcbb8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>74562a4c1b286810ce294371b24bcbb8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>f4562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>74562a4c1b286810ce294371b24bcbb8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>70562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[7a248115-b617-4f35-aa1d-410d0044c784].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>74562a4c1b286810ce294371b24bcbb8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>34562a4c1b286810ce294371b24bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=74562a4c1b286810ce294371b24bcbb8^sys_idNOT IN13a922801b686810ce294371b24bcbe9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDfddaa204a2686810dcce2c9701211bf3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cdbd7a05-f401-4bd9-9c94-27ba6bd081a3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">74562a4c1b286810ce294371b24bcbb8</model>
+        <model_id>74562a4c1b286810ce294371b24bcbb8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_74562a4c1b286810ce294371b24bcbb8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 12:13:29</sys_created_on>
+        <sys_id>13a922801b686810ce294371b24bcbe9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 12:18:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Remote Users">a616a24c1b286810ce294371b24bcb1c</action>
+        <cid>7a248115-b617-4f35-aa1d-410d0044c784</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:31</sys_created_on>
+        <sys_id>d446e64c1b286810ce294371b24bcb2e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d446e64c1b286810ce294371b24bcb2e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>1846e64c1b286810ce294371b24bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>1c46e64c1b286810ce294371b24bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:50</sys_created_on>
+        <sys_id>34562a4c1b286810ce294371b24bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:50</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>5446e64c1b286810ce294371b24bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>https://5fa9fbbbb5c6450016029ff2.mockapi.io/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>9046e64c1b286810ce294371b24bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>d046e64c1b286810ce294371b24bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>users</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d446e64c1b286810ce294371b24bcb2e</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:58:32</sys_created_on>
+        <sys_id>dc46e64c1b286810ce294371b24bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:58:32</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a616a24c1b286810ce294371b24bcb1c^sys_idNOT IN2986ae4c1b286810ce294371b24bcba1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remote_users</element>
+        <help/>
+        <hint/>
+        <label>Remote Users</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a616a24c1b286810ce294371b24bcb1c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2020-11-13 11:59:43</sys_created_on>
+        <sys_id>2986ae4c1b286810ce294371b24bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="myApp" source="x_snc_mj_myapp">999bad4c1be06810ce294371b24bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myApp">999bad4c1be06810ce294371b24bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2020-11-13 11:59:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
